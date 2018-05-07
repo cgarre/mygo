@@ -15,7 +15,6 @@ func doSomethingElse(s chan string) {
 	time.Sleep(time.Second + time.Second)
 	fmt.Print(" --- 2 --- ")
 	s <- "done"
-
 }
 
 //simple test
